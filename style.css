@@ -1,0 +1,171 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-image: url('./cgbg2.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-left h1 {
+	font-size: 24px;
+}
+
+.header-right {
+	display: flex;
+	align-items: center;
+}
+
+.header-right ul {
+	list-style: none;
+	display: flex;
+}
+
+.header-right li {
+	margin-left: 10px;
+}
+
+
+.header-right a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+.header-right a:hover {
+	text-decoration: underline; 
+}
+
+#languageSelect {
+	padding: 8px;
+	font-size: 16px;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-right: 10px;
+	background-color: #fff;
+}
+
+#languageSelect:focus {
+	outline: none;
+}
+
+#languageSelect option {
+	color: #333;
+}
+
+.content {
+	text-align: center;
+	margin: 50px 0;
+	flex: 1;
+}
+
+.search-engine {
+	text-align: center;
+	margin: 60px 0;
+  }
+  
+  .search-engine input[type="text"] {
+	width: 300px;
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+  }
+  
+  .search-engine button {
+	padding: 8px 16px;
+	font-size: 16px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+
+.content h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #fff; 
+}
+
+.content h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+blockquote {
+	font-size: 20px;
+	font-style: italic;
+	color: #fff; 
+}
+
+.about-section {
+	margin-top: 30px;
+}
+
+.about-section h3 {
+	font-size: 24px;
+	color: #fff; 
+	margin-bottom: 10px;
+}
+
+.about-section p {
+	font-size: 16px;
+	color: #fff; 
+}
+
+.header-right li a {
+	color: #fff;
+}
+
+.header-right li a:hover {
+	text-decoration: underline; 
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-icons a {
+	color: #fff;
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+.footer-contact p {
+	font-size: 16px;
+}
+
+.footer-contact a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+.footer-contact a:hover {
+	text-decoration: underline; 
+}
